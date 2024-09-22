@@ -5,7 +5,7 @@ const res = require('express/lib/response');
 require('dotenv').config();
 const bodyParser = require('body-parser')
 
-//starting and Express app.
+//starting an Express app.
 let app = express();
 
 //Middlewares used: static, logger & bodyParser.
